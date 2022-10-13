@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react'
 import { ActiveLink } from '.'
+import { jest } from '@jest/globals'
 
 beforeEach(() => {
     const useRouter = jest.spyOn(require('next/router'), 'useRouter');
